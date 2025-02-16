@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ollias/pages/level_page.dart';
+import 'package:ollias/pages/dictionary_page.dart';
 import 'rules_page.dart'; // Импортируем экран с правилами
 
 class HomePage extends StatelessWidget {
@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => LevelPage()),
+                      MaterialPageRoute(builder: (context) => DictionaryPage()),
                     );
                 print('Новая игра');
               },
