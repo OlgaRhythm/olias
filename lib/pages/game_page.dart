@@ -142,6 +142,7 @@ class _GamePageState extends State<GamePage> {
               onPressed: _startGame,
               child: Text("Начать игру"),
             ),
+
           SizedBox(height: 40),
         ],
       ),

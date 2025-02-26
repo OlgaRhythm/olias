@@ -5,6 +5,7 @@ import 'dictionary_view_page.dart';
 import 'game_settings_page.dart';
 import 'package:ollias/providers/game_state.dart';
 
+
 class DictionaryPage extends StatefulWidget {
   @override
   _DictionaryPageState createState() => _DictionaryPageState();
@@ -101,6 +102,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
         trailing: IconButton(
           icon: Icon(Icons.remove_red_eye),
           onPressed: () {
+
             Navigator.push(
               context,
               MaterialPageRoute(
